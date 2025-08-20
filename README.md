@@ -1,50 +1,10 @@
-# Welcome to your Expo app 👋
+# Vital Soma **
+O Vital Soma** é um aplicativo fitness inovador que usa **inteligência artificial** para estimar a **porcentagem de gordura corporal** a partir de imagens enviadas pelo usuário. Combinando gamificação e recomendações personalizadas de alimentação e atividades físicas, o app visa melhorar a saúde e o bem-estar dos usuários, promovendo um estilo de vida saudável. 
+--- ## Tecnologias Utilizadas - 
+**React Native**: Framework para o desenvolvimento do aplicativo móvel. 
+**Coogle Colab**: Ambiente de desenvolvimento para rodar modelos de IA que estimam a gordura corporal a partir de imagens.
+**Supabase**: Banco de dados e autenticação de usuários. Supabase é utilizado para armazenar informações dos usuários. 
+**SQLite**: Usado para garantir o funcionamento offline do aplicativo, permitindo que os dados sejam armazenados localmente no dispositivo do usuário.
+**Node.js**: Ambiente de execução para o back-end e scripts de integração. 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Funcionalidades - **Análise de Gordura Corporal**: Estima a porcentagem de gordura corporal e o IMC a partir de imagens enviadas pelo usuário. - **Recomendações Personalizadas**: Oferece sugestões de alimentação e exercícios baseadas no perfil do usuário. - **Gamificação**: Desafios, recompensas e rankings para incentivar os usuários a manterem um estilo de vida saudável. - **Monitoramento de Progresso**: Acompanhamento contínuo das métricas de saúde e evolução física. - **Interatividade**: Feedback dinâmico com base no progresso do usuário.
